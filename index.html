@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="shortcut icon"href="data:image/png;base64,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"type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="home">
+    <img id="img" class="img-fluid" src="images/logo.png" alt="">
+    <span class="position-absolute" id="buttons">
+      <div class="dropdown show d-inline m-1">
+        <a class="btn bg-transparent btn-outline-light border-1 dropdown-toggle text-white btn btn-sm px-4 rounded-2"
+          href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          English
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Hindi</a>
+        </div>
+      </div>
+      <button class=" btn  text-light  m-1 " id="signin"><a href="form.html"
+          class="text-white text-decoration-none">signin</a></button>
+    </span>
+    <div class="container position-relative text-center " style="top: 40%;">
+
+      <h2 class="text-light text-center display-5  fw-bolder  p-4">Unlimited movies, TV shows and more</h2>
+      <h5 class="text-light text-center fw-normal fs-5 ">Watch anywhere. Cancel anytime.</h5>
+      <p class="text-light text-center fw-medium fs-6 ">Ready to watch? Enter your email to create or restart your
+        membership.</p>
+      <div><input type="text" class="p-2 form rounded-3 text-light bg-transparent" placeholder="Email address">
+        <button class="btn  d-inline-block text-light m-3 btn-lg" id="signin">Get started </button>
+      </div>
+    </div>
+  </div>
+  <div class="feature container-fluid">
+    <div class="  container    ">
+      <div class="row h-75 mt-3 mb-5">
+        <span class="col-lg-6 col-md-12  text-white bg-black d-flex align-items-center ">
+          <span class="mx-5">
+            <h1 class="display-5 p-2 fw-bolder text-sm-center text-lg-start">Enjoy on your TV</h1>
+            <p class="fs-5 fw-medium">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+              more</p>
+          </span></span>
+        <span class="col-lg-6 bg-black text-center">
+          <img src="images/feature-1.png" alt="" class="img-fluid features">
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid feature">
+    <div class="  container ">
+      <div class="row  mt-3 mb-5">
+        <span class="col-lg-6 bg-black order-1 text-center order-md-1 ">
+          <img src="images/feature-2.png" alt="" class=" features1 img-fluid">
+        </span>
+        <span class="col-lg-6 col-md-12 order-md-1 text-white bg-black d-flex align-items-center ">
+          <span class="mx-5">
+            <h1 class="display-5 p-2 fw-bolder text-sm-center text-lg-start">Download your shows to watch offline</h1>
+            <p class="fs-5 fw-medium">Save your favourites easily and always have something to watch.</p>
+          </span></span>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid feature">
+    <div class="  container p-4">
+      <div class="row h-75 mt-3 mb-5">
+        <span class="col-lg-6 col-md-12  text-white bg-black d-flex align-items-center ">
+          <span class="">
+            <h1 class="display-6 p-2 fw-bolder text-sm-center text-lg-start">Watch everywhere</h1>
+            <p class="fs-5 fw-medium">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+          </span></span>
+        <span class="col-lg-6 mx-auto bg-black text-center">
+          <img src="images/feature-3.png" alt="" class=" features img-fluid">
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid feature">
+    <div class="  container ">
+      <div class="row h-75 mt-3 mb-5">
+
+        <span class="col-lg-6 col-md-12 order-md-2  text-white bg-black d-flex align-items-center ">
+          <span class="mx-5">
+            <h1 class="display-5 p-2 fw-bolder text-sm-center text-lg-start">Create profiles for kids</h1>
+            <p class="fs-6 fw-medium">Send children on adventures with their favourite characters in a space made just
+              for them—free with your membership.</p>
+          </span></span>
+        <span class="col-lg-6 bg-black text-center order-md-1">
+          <img src="images/feature-4.png" alt="" class=" img-fluid">
+        </span>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid  feature">
+    <div class="  container w-100   text-white text-center ">
+      <h2 class="text-center display-5 fw-bolder mt-5">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush " id="accordionFlushExample">
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              What is Netflix? <i id="bi-plus" class="display-3 position-absolute fw-light end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              How much does Netflix cost? <i id="bi-plus"
+                class="display-3 position-absolute fw-lighter end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapsetwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              Where can I watch? <i id="bi-plus" class="display-3 position-absolute fw-lighter end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              How do i cancel? <i id="bi-plus" class="display-3 position-absolute fw-lighter end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              What can I watch on Neflix? <i id="bi-plus"
+                class="display-3 position-absolute fw-lighter end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-0 text-white">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-dark text-white fs-4 p-4" type="button"
+              data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false"
+              aria-controls="flush-collapseOne">
+              Is Netflix good for kids? <i id="bi-plus"
+                class="display-3 position-absolute fw-lighter end-0 m-3 z-2">+</i>
+            </button>
+          </h2>
+          <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-5 bg-dark">Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected
+              devices.
+              <br><br>
+              You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+          </div>
+        </div>
+      </div>
+      <h5 class="text-center m-4">Ready to watch? Enter your email to create or restart your membership.</h5>
+      <input type="text" class="p-3 form  rounded-1 h-50 text-light " placeholder="Email address">
+      <button class="btn bg-danger1 d-inline-block display-6 text-light m-3 btn-lg">Get started </button>
+    </div>
+  </div>
+  <div class="container-fluid feature">
+    <div class=" container  text-white">
+      <h6 style="  color: rgba(255,255,255,0.7); " class="px-3 my-3">Questions? Call 000-800-919-1694</h6>
+      <div class="row row-cols-2">
+        <div class="col-lg-3  col-md-6">
+          <ul>
+            <li>FAQ</li>
+            <li>Account</li>
+            <li>Invesor Relations</li>
+            <li> FAQ</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <ul>
+            <li>Help Centre</li>
+            <li>Account</li>
+            <li>Media Centre</li>
+            <li>Jobs</li>
+          </ul>
+
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <ul>
+            <li>Speed Test</li>
+            <li>Legal Notices</li>
+            <li> Only on Netflix</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <ul>
+            <li>ways to watch</li>
+            <li>privacy</li>
+            <li>corporate information</li>
+            <li>terms of use</li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown show d-inline ms-4  ">
+        <a class="btn bg-transparent  border-1 dropdown-toggle text-white btn btn-sm px-4 rounded-1" href="#" style="border: 1px solid rgba(255,255,255,0.7);
+          " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Hindi</a>
+        </div>
+      </div>
+      <h6 class="ms-4 py-4" style="  color: rgba(255,255,255,0.7); ">Netflix India</h6>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
